@@ -1,0 +1,55 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "montserrat";
+
+}
+
+
+#hero{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #bfd2bf;
+    justify-content: center;
+    width: 100%;
+    
+}
+#card{
+    height: 40%;
+    width:30%;
+    color: black;
+
+box-shadow: #e019ae;
+text-align: center;
+align-items: center;
+text-transform: uppercase;
+border: 3px solid rgba(160, 161, 163, 0.533);
+background-color: #f5f1f15b;
+border-radius: 5%;
+    
+}
+h1{
+    padding: 5%;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    background-color: red;
+}
+i{
+    font-size: 50px;
+}
+#h{
+    margin-left: 0;
+}
